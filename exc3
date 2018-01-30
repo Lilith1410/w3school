@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(void){
+    char upLine[] = "   #####  "; 
+    char downLine[] = " ##     ##"; 
+    int i = 0; 
+    printf(upLine+"\n"); 
+    printf(downLine+"\n"); 
+    for (i; i<5; i++){
+        printf("#\n"); 
+    } 
+    printf(downLine+"\n"); 
+    printf(upLine+"\n"); 
+   return 0; 
+}
