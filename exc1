@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(void){
+    //String name = "Valerie"; 
+    //String dateOfBirth = "14.10.1990"; 
+    //long mobile = 017692609546; 
+   printf("Name \t: Valerie\n"); 
+   printf("DBB \t: 14.10.1990\n"); 
+   printf("Mobile \t: 999-99999999"); 
+   return 0; 
+}
