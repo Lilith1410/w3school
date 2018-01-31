@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main(void){
+    char char1 = 'x'; 
+    char char2 = 'm'; 
+    char char3 = 'l'; 
+    printf("The letters %c, %c, %c in reverse order are %c, %c, %c", char1, char2, char3, char3, char2, char1); 
+}
