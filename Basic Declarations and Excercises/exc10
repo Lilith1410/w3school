@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(void){
+    
+    int a, b, product; 
+    
+    printf("\nInput the first integer: "); 
+    scanf("%d", &a); 
+    printf("\nInput the second integer: "); 
+    scanf("%d", &b); 
+    
+    product = a*b; 
+    
+    printf("\nSum of the above two integers: %d\n", product); 
+    
+    return 0; 
+}
