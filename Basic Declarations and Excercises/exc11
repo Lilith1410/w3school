@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main(void){
+    
+    float weight1, weight2, no1, no2, result; 
+    printf("Weight - item1: "); 
+    scanf("%lf", &weight1); 
+    printf("No. of item1: "); 
+    scanf("%lf", &no1);
+    printf("Weight - item2: "); 
+    scanf("%lf", &weight2);
+    printf("No. of item2: "); 
+    scanf("%lf", &no2);
+    
+    result = ((weight1*no1) + (weight2*no2))/(no1+no2); 
+    
+    printf("Average Value = %f\n", result); 
+    return 0; 
+}
