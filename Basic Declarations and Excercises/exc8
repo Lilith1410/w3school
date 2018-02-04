@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(void){
+    int testData = 1329; 
+    
+    int year, weeks, days; 
+    year = testData / 365; 
+    weeks = (testData%365) / 7; 
+    days = testData - (( year*365) + (weeks*7)); 
+    
+    printf("Years: %d\n", year); 
+    printf("Weeks: %d\n", weeks); 
+    printf("Days: %d\n", days); 
+}
